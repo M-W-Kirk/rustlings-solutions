@@ -5,7 +5,7 @@ fn main() {
 }
 
 fn call_me() {
-    println!("Hello, world!");
+    println!("I called and the program compiles now.");
 }
 
 
