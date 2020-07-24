@@ -9,7 +9,7 @@ fn main() {
         println!("Good morning!");
     }
 
-    let is_evening = false;
+    let is_evening = true;
     if is_evening {
         println!("Good evening!");
     }
