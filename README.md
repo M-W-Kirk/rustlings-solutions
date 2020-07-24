@@ -49,6 +49,12 @@ If you need more help or would like to compare solutions, you can ask in [#rust-
 - ["primitive_types5.rs"](http://play.rust-lang.org/?code=%2F%2F+Destructure+the+%60cat%60+tuple+so+that+the+println+will+work.%0A%2F%2F+Scroll+down+for+hints%21%0A%0Afn+main%28%29+%7B%0A++++let+cat+%3D+%28%22Furry+McFurson%22%2C+3.5%29%3B%0A++++let+%2F*+your+pattern+here+*%2F+%3D+cat%3B%0A%0A++++println%21%28%22%7B%7D+is+%7B%7D+years+old.%22%2C+name%2C+age%29%3B%0A%7D%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%2F%2F+Take+a+look+at+the+Primitive+Types+-%3E+Tuples+section+of+the+book%3A%0A%2F%2F+http%3A%2F%2Fdoc.rust-lang.org%2Fstable%2Fbook%2Fprimitive-types.html%23tuples%0A%2F%2F+Particularly+the+part+about+%22destructuring+lets%22.+You%27ll+need+to%0A%2F%2F+make+a+pattern+to+bind+%60name%60+and+%60age%60+to+the+appropriate+parts%0A%2F%2F+of+the+tuple.+You+can+do+it%21%21%0A)
 - ["primitive_types6.rs"](http://play.rust-lang.org/?code=%2F%2F+Use+a+tuple+index+to+access+the+second+element+of+%60numbers%60.%0A%2F%2F+You+can+put+this+right+into+the+%60println%21%60+where+the+%3F%3F%3F+is.%0A%2F%2F+Scroll+down+for+hints%21%0A%0Afn+main%28%29+%7B%0A++++let+numbers+%3D+%281%2C+2%2C+3%29%3B%0A++++println%21%28%22The+second+number+is+%7B%7D%22%2C+%3F%3F%3F%29%3B%0A%7D%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%2F%2F+While+you+could+use+a+destructuring+%60let%60+for+the+tuple+here%2C+try+%0A%2F%2F+indexing+into+it+instead%2C+as+explained+here%3A%0A%2F%2F+http%3A%2F%2Fdoc.rust-lang.org%2Fstable%2Fbook%2Fprimitive-types.html%23tuple-indexing%0A%2F%2F+Now+you+have+another+tool+in+your+toolbox%21%0A)
 
+### Quiz
+
+These quizs occur after certain topics of the recommended progression is completed.
+
+- ["quiz1.rs"]
+
 ### Tests
 
 Going out of order from the Syntax and Semantics section of the book to cover tests-- many of the
